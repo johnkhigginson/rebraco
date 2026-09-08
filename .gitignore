@@ -1,0 +1,37 @@
+# IDE / Editor
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Local tool settings (machine-specific, may contain credentials)
+.claude/
+
+# Secrets and certificates
+*.pfx
+*.p12
+*.pem
+*.key
+secrets.json
+appsettings.*.local.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment files (use .env.example for templates)
+.env
+.env.*
+!.env.example
+
+# React Router generated types
+.react-router/
+
+# Build / publish output
+publish/
+publish-cms/
+publish-linux/
+
+# Internal working notes
+ux-audit.csv
